@@ -1,250 +1,291 @@
 # 🎮 Dashboard de Vendas — Xbox Game Pass
 
-> 📊 Projeto de análise de dados desenvolvido em Microsoft Excel, utilizando uma base de assinaturas do Xbox Game Pass para construção de indicadores, cálculos e um dashboard interativo.
+![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge\&logo=microsoft-excel\&logoColor=white)
+![DIO](https://img.shields.io/badge/DIO-Digital%20Innovation%20One-7B2CBF?style=for-the-badge)
+![Santander](https://img.shields.io/badge/Santander-Excel%20com%20IA%20e%20Claude-EC0000?style=for-the-badge)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Excel-blue?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/Dashboard-Analytics-orange?style=for-the-badge)
+
+> 📊 Projeto prático desenvolvido durante o curso **Santander — Excel com IA e Claude**, realizado na plataforma **DIO — Digital Innovation One**, com orientação do professor/mentor **Felipe Silva Aguiar**.
 
 ---
 
-## 📌 Sobre o Projeto
+## 🎓 Contexto do Projeto
 
-Este projeto apresenta um **Dashboard de Vendas e Assinaturas do Xbox Game Pass**, desenvolvido com o objetivo de transformar dados brutos em informações visuais que auxiliem na análise do comportamento das assinaturas.
+Este projeto foi desenvolvido como uma **atividade prática do curso Santander — Excel com IA e Claude**, disponibilizado pela **DIO — Digital Innovation One**.
 
-A solução foi construída em **Microsoft Excel**, utilizando organização de dados, tabelas dinâmicas, cálculos e recursos de visualização para criar uma visão consolidada dos principais indicadores da base.
+A proposta foi aplicar, na prática, conhecimentos relacionados ao **Microsoft Excel**, organização de dados, cálculos, análise de informações e construção de um dashboard para visualização de indicadores.
 
-O projeto demonstra, na prática, conceitos relacionados a:
+O projeto utiliza uma base de dados relacionada a assinaturas do **Xbox Game Pass**, transformando dados estruturados em informações visuais para análise.
 
-* 📊 Análise de dados
-* 📈 Data Visualization
-* 📑 Organização e tratamento de dados
-* 🧮 Cálculos e indicadores
-* 🔄 Tabelas dinâmicas
-* 🎯 Construção de dashboards
-* 📋 Análise de assinaturas
-* 💻 Microsoft Excel
+---
+
+## 📚 Informações do Curso
+
+| Informação               | Detalhe                              |
+| ------------------------ | ------------------------------------ |
+| 🎓 Curso/Bootcamp        | Santander — Excel com IA e Claude    |
+| 👨‍🏫 Professor/Mentor   | Felipe Silva Aguiar                  |
+| 🏫 Plataforma            | DIO — Digital Innovation One         |
+| 📊 Projeto               | Dashboard de Vendas — Xbox Game Pass |
+| 🛠️ Ferramenta principal | Microsoft Excel                      |
+| 📌 Categoria             | Projeto Prático / Portfólio          |
+
+🔗 **DIO — Digital Innovation One:**
+https://www.dio.me/
 
 ---
 
 ## 🎯 Objetivo
 
-O principal objetivo do projeto é transformar uma base de dados de assinantes em um **painel visual de análise**, permitindo uma interpretação mais rápida das informações relacionadas às assinaturas.
+O objetivo deste projeto foi desenvolver um **Dashboard de Vendas e Assinaturas do Xbox Game Pass**, utilizando o Microsoft Excel para organizar, analisar e apresentar informações de uma base de dados.
 
-A partir dos dados disponíveis, o dashboard possibilita analisar informações relacionadas a:
+A atividade permitiu aplicar conceitos de:
 
-* Planos de assinatura;
-* Tipo de assinatura;
-* Valor das assinaturas;
-* Renovação automática;
-* EA Play Season Pass;
-* Minecraft Season Pass;
-* Distribuição dos assinantes;
-* Indicadores financeiros;
-* Comportamento da base de assinantes.
+* Organização de dados;
+* Análise de dados;
+* Fórmulas e cálculos;
+* Indicadores;
+* Tabelas dinâmicas;
+* Visualização de dados;
+* Construção de dashboards;
+* Análise de assinaturas;
+* Apresentação visual de informações.
 
 ---
 
-## 🗂️ Estrutura da Planilha
+## 📊 Sobre a Base de Dados
 
-A planilha foi organizada em diferentes áreas para separar os dados, os cálculos e a apresentação visual.
+A base utilizada no projeto contém informações relacionadas aos assinantes do Xbox Game Pass.
 
-### 🎨 Assets
+Entre os principais campos disponíveis estão:
 
-Área destinada aos elementos visuais utilizados na construção do dashboard, incluindo a paleta de cores e recursos gráficos.
+| Campo                       | Descrição                  |
+| --------------------------- | -------------------------- |
+| Subscriber ID               | Identificação do assinante |
+| Name                        | Nome do assinante          |
+| Plan                        | Plano contratado           |
+| Start Date                  | Data de início             |
+| Auto Renewal                | Renovação automática       |
+| Subscription Price          | Preço da assinatura        |
+| Subscription Type           | Tipo de assinatura         |
+| EA Play Season Pass         | Contratação do EA Play     |
+| Minecraft Season Pass       | Contratação do Minecraft   |
+| EA Play Season Pass Price   | Valor do EA Play           |
+| Minecraft Season Pass Price | Valor do Minecraft         |
+| Total Value                 | Valor total                |
 
-### 🗃️ Bases
+A base utilizada no projeto possui **295 registros**.
 
-Contém a base principal de dados utilizada no projeto.
+---
 
-A base possui informações como:
+# 🗂️ Estrutura da Planilha
 
-| Campo                       | Descrição                          |
-| --------------------------- | ---------------------------------- |
-| Subscriber ID               | Identificador do assinante         |
-| Name                        | Nome do assinante                  |
-| Plan                        | Plano contratado                   |
-| Start Date                  | Data de início da assinatura       |
-| Auto Renewal                | Indicação de renovação automática  |
-| Subscription Price          | Valor da assinatura                |
-| Subscription Type           | Tipo de assinatura                 |
-| EA Play Season Pass         | Contratação do EA Play             |
-| Minecraft Season Pass       | Contratação do Minecraft           |
-| EA Play Season Pass Price   | Valor do EA Play                   |
-| Minecraft Season Pass Price | Valor do Minecraft                 |
-| Total Value                 | Valor total associado à assinatura |
+A solução foi organizada em diferentes áreas para separar a base de dados, os cálculos e a visualização final.
+
+## 🎨 Assets
+
+Área destinada aos elementos visuais utilizados na construção do dashboard.
+
+Inclui recursos relacionados à identidade visual e à organização gráfica do projeto.
+
+---
+
+## 🗃️ Bases
+
+Contém a base de dados utilizada para alimentar os cálculos e indicadores.
+
+Essa área representa a fonte principal das informações analisadas no projeto.
 
 ---
 
 ## 🧮 Cálculos
 
-A área de cálculos reúne informações utilizadas como suporte para o dashboard.
+Área utilizada para realizar os cálculos necessários para a construção dos indicadores.
 
-Entre os indicadores calculados estão:
-
-* Valor total das assinaturas;
-* Distribuição por renovação automática;
-* Valores relacionados aos planos;
-* Receita associada ao Minecraft Season Pass;
-* Receita associada ao EA Play Season Pass;
-* Comparações entre diferentes tipos de assinatura.
-
-### Principais valores identificados na base de cálculos
-
-**Valor total das assinaturas:**
-
-```text
-7.633
-```
-
-**Valor relacionado ao Minecraft Season Pass:**
-
-```text
-3.880
-```
-
-**Valor relacionado ao EA Play Season Pass:**
-
-```text
-2.940
-```
-
-Esses valores são utilizados como parte da estrutura analítica do projeto.
+Os resultados obtidos nessa etapa servem como base para a apresentação das informações no dashboard.
 
 ---
 
 ## 📊 Dashboard
 
-O dashboard é a camada visual do projeto.
+Área destinada à apresentação visual dos resultados.
 
-A proposta é apresentar os principais indicadores de forma organizada, permitindo uma leitura rápida das informações.
+O dashboard reúne informações relacionadas às assinaturas e permite visualizar os principais indicadores de maneira organizada.
 
-### Principais dimensões analisadas
+---
 
-**Planos**
+# 📈 Principais Análises
+
+O projeto permite trabalhar diferentes dimensões da base de assinantes.
+
+### 🎮 Planos
+
+Análise dos planos disponíveis:
 
 * Core
 * Standard
 * Ultimate
 
-**Renovação**
+### 🔄 Renovação Automática
 
-* Yes
-* No
+Análise dos assinantes de acordo com a configuração de renovação automática.
 
-**Tipos de assinatura**
+### 📅 Tipo de Assinatura
+
+A base apresenta diferentes períodos de assinatura:
 
 * Monthly
 * Quarterly
 * Annual
 
-**Serviços adicionais**
+### 🕹️ Serviços Adicionais
+
+Análise dos serviços complementares:
 
 * EA Play Season Pass
 * Minecraft Season Pass
 
----
+### 💰 Valores
 
-## 🖼️ Visualização do Dashboard
-
-> A imagem abaixo apresenta uma visão geral do dashboard desenvolvido no Excel.
-
-![Dashboard de Vendas](images/dashboard.png)
+Análise dos valores relacionados às assinaturas e aos serviços adicionais.
 
 ---
 
-## 🛠️ Tecnologias e Recursos Utilizados
+# 🖥️ Visualização do Dashboard
 
-| Tecnologia         | Utilização                            |
-| ------------------ | ------------------------------------- |
-| Microsoft Excel    | Desenvolvimento do projeto            |
-| Tabelas Dinâmicas  | Análise dos dados                     |
-| Fórmulas           | Cálculos e indicadores                |
-| Dashboard          | Visualização dos resultados           |
-| Data Visualization | Representação gráfica dos dados       |
-| GitHub             | Versionamento e publicação do projeto |
+O resultado final da atividade foi apresentado por meio de um dashboard desenvolvido no Microsoft Excel.
+
+![Dashboard de Vendas — Xbox Game Pass](images/dashboard.png)
 
 ---
 
-## 📈 Processo de Desenvolvimento
+# 🛠️ Tecnologias e Ferramentas
 
-O projeto foi desenvolvido seguindo uma estrutura de análise de dados:
+| Tecnologia/Ferramenta | Aplicação                        |
+| --------------------- | -------------------------------- |
+| Microsoft Excel       | Desenvolvimento do projeto       |
+| Fórmulas              | Cálculos e indicadores           |
+| Tabelas Dinâmicas     | Análise e consolidação dos dados |
+| Dashboard             | Visualização dos resultados      |
+| DIO                   | Plataforma de aprendizagem       |
+| GitHub                | Documentação e portfólio         |
+
+---
+
+# 🔎 Etapas do Desenvolvimento
+
+O projeto foi estruturado seguindo um fluxo de análise de dados:
 
 ```text
-Base de Dados
-      ↓
-Organização dos Dados
-      ↓
-Tratamento e Estruturação
-      ↓
-Cálculos
-      ↓
-Tabelas Dinâmicas
-      ↓
-Indicadores
-      ↓
-Dashboard
-      ↓
-Análise Visual
+📥 Base de Dados
+       │
+       ▼
+🗂️ Organização dos Dados
+       │
+       ▼
+🧮 Cálculos
+       │
+       ▼
+📊 Indicadores
+       │
+       ▼
+📈 Análise
+       │
+       ▼
+🎯 Dashboard
 ```
+
+Essa estrutura permite organizar o processo desde a preparação dos dados até a apresentação das informações.
 
 ---
 
-## 💡 Aprendizados
+# 🧠 Principais Aprendizados
 
-Durante o desenvolvimento deste projeto, foram praticados conceitos importantes para construção de projetos de análise de dados utilizando Excel.
+O desenvolvimento deste projeto proporcionou a aplicação prática de conhecimentos relacionados à análise e visualização de dados utilizando Excel.
 
 Entre os principais aprendizados estão:
 
 * Organização de bases de dados;
-* Estruturação de informações para análise;
+* Estruturação de informações;
+* Utilização de fórmulas;
 * Criação de cálculos;
-* Utilização de tabelas dinâmicas;
 * Construção de indicadores;
-* Criação de dashboards;
+* Utilização de tabelas dinâmicas;
+* Desenvolvimento de dashboards;
 * Organização visual de informações;
-* Transformação de dados em informações úteis para tomada de decisão.
+* Análise de dados;
+* Transformação de dados em informações para análise.
 
 ---
 
-## 🚀 Aplicação Profissional
+# 🚀 Evolução Profissional
 
-Projetos como este fazem parte da construção de um portfólio voltado para **Dados, Tecnologia e Business Intelligence**.
+Este projeto representa uma etapa da minha jornada de aprendizado na área de tecnologia.
 
-A capacidade de transformar dados em informações visuais é importante em diferentes áreas profissionais, permitindo apoiar processos de análise e tomada de decisão.
+A construção de projetos práticos permite aplicar os conhecimentos estudados e, ao mesmo tempo, documentar a evolução técnica por meio de um portfólio.
 
-Este projeto representa uma aplicação prática dos conhecimentos adquiridos durante minha jornada de estudos em tecnologia.
+A publicação deste projeto no GitHub tem como objetivo registrar essa experiência e demonstrar, na prática, conhecimentos relacionados a:
 
----
-
-## 📚 Projeto de Portfólio
-
-Este projeto faz parte do meu portfólio de estudos e projetos práticos.
-
-O objetivo é documentar minha evolução técnica e demonstrar, por meio de projetos reais, conhecimentos relacionados a:
-
-**Excel • Dados • Dashboards • Análise de Dados • Tecnologia**
+**Excel • Análise de Dados • Dashboards • Visualização de Dados • Tecnologia**
 
 ---
 
-## 👨‍💻 Autor
+# 🎓 Formação
 
-**Cristiano Bonifácio**
+### Santander — Excel com IA e Claude
 
-Estudante de Segurança da Informação | Cybersecurity | Cloud Computing | Infraestrutura de TI
+**Plataforma:** DIO — Digital Innovation One
+**Professor/Mentor:** Felipe Silva Aguiar
+**Projeto:** Dashboard de Vendas — Xbox Game Pass
 
-🔗 LinkedIn:
-https://www.linkedin.com/in/adamasnegro/
+O projeto foi desenvolvido como parte das atividades práticas do curso.
 
-🔗 GitHub:
+🔗 **DIO — Digital Innovation One**
+
+https://www.dio.me/
+
+---
+
+# 📁 Estrutura do Repositório
+
+```text
+dashboard-vendas-xbox-game-pass/
+│
+├── README.md
+│
+├── Dashboard de Vendas.xlsx
+│
+└── images/
+    └── dashboard.png
+```
+
+---
+
+# 👨‍💻 Autor
+
+## Cristiano Bonifácio
+
+**Estudante de Segurança da Informação | Cybersecurity | Cloud Computing | Infraestrutura de TI**
+
+### 🔗 Conecte-se comigo
+
+💻 **GitHub**
 https://github.com/adamasnegro
 
----
-
-## ⭐ Contribuição
-
-Este projeto possui finalidade educacional e de portfólio.
-
-Sugestões e melhorias são bem-vindas.
+🔗 **LinkedIn**
+https://www.linkedin.com/in/adamasnegro/
 
 ---
 
-## 📄 Licença
+# 📌 Observação
 
-Este projeto está disponível para fins educacionais e de portfólio.
+Este projeto possui **finalidade educacional e de portfólio** e foi desenvolvido como parte da formação **Santander — Excel com IA e Claude**, realizada através da plataforma **DIO — Digital Innovation One**.
+
+O objetivo deste repositório é documentar a aplicação prática dos conhecimentos adquiridos durante a formação e registrar minha evolução no desenvolvimento de projetos relacionados à tecnologia e análise de dados.
+
+---
+
+## ⭐ Projeto desenvolvido para fins de estudo e portfólio
+
+**Santander • DIO • Excel • Análise de Dados • Dashboard • GitHub**
